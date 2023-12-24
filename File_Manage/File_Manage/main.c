@@ -6,9 +6,25 @@
 //
 
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#define SIZE 1000
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    FILE *file = NULL;
+    file = fopen("example.txt", "r");
+
+    if (file == NULL) {
+        printf("There is no file to read\n");
+        exit(-1);
+    }
+    char content = fgetc(file);
+    while (content != EOF) {
+        printf("%c", content);
+        content = fgetc(file);
+    }
+
+    fclose(file);
     return 0;
 }
+

@@ -1,0 +1,5 @@
+This is an example
+
+After an empty STRING
+
+There is an example of tabulation -> 	. 	.
