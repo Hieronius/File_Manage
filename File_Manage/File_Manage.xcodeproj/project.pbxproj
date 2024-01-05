@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD8570E22B46F725006B4E7B /* CatHarbImplementation.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8570E12B46F725006B4E7B /* CatHarbImplementation.c */; };
+		DD8BCFCA2B3ADDB100A93C48 /* GetAndInspectTerminalAgruments.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BCFC92B3ADDB100A93C48 /* GetAndInspectTerminalAgruments.c */; };
+		DD8BCFCC2B3AE10A00A93C48 /* CurrentProject.c in Sources */ = {isa = PBXBuildFile; fileRef = DD8BCFCB2B3AE10A00A93C48 /* CurrentProject.c */; };
 		DDA04A9F2B382E9700B71D5C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA04A9E2B382E9700B71D5C /* main.c */; };
+		DDA04AA62B383D2900B71D5C /* OpenFileAndPrint.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA04AA52B383D2900B71D5C /* OpenFileAndPrint.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD8570E12B46F725006B4E7B /* CatHarbImplementation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CatHarbImplementation.c; sourceTree = "<group>"; };
+		DD8BCFC92B3ADDB100A93C48 /* GetAndInspectTerminalAgruments.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GetAndInspectTerminalAgruments.c; sourceTree = "<group>"; };
+		DD8BCFCB2B3AE10A00A93C48 /* CurrentProject.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CurrentProject.c; sourceTree = "<group>"; };
 		DDA04A9B2B382E9700B71D5C /* File_Manage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = File_Manage; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA04A9E2B382E9700B71D5C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DDA04AA52B383D2900B71D5C /* OpenFileAndPrint.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OpenFileAndPrint.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				DDA04A9E2B382E9700B71D5C /* main.c */,
+				DDA04AA52B383D2900B71D5C /* OpenFileAndPrint.c */,
+				DD8BCFC92B3ADDB100A93C48 /* GetAndInspectTerminalAgruments.c */,
+				DD8BCFCB2B3AE10A00A93C48 /* CurrentProject.c */,
+				DD8570E12B46F725006B4E7B /* CatHarbImplementation.c */,
 			);
 			path = File_Manage;
 			sourceTree = "<group>";
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8570E22B46F725006B4E7B /* CatHarbImplementation.c in Sources */,
+				DD8BCFCA2B3ADDB100A93C48 /* GetAndInspectTerminalAgruments.c in Sources */,
 				DDA04A9F2B382E9700B71D5C /* main.c in Sources */,
+				DDA04AA62B383D2900B71D5C /* OpenFileAndPrint.c in Sources */,
+				DD8BCFCC2B3AE10A00A93C48 /* CurrentProject.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
